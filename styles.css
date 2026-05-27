@@ -1533,7 +1533,9 @@ table {
 
   /* FIX 14: main dùng margin-left cứng chỉ ở desktop */
   .main {
-    margin-left: 6rem;
+    /* margin-left: 6rem; */
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .home__blob {
