@@ -442,6 +442,14 @@ body.dark-theme {
     background  var(--lg-t-fast),
     box-shadow  var(--lg-t-mid);
 }
+
+/* Reset icon margin để căn giữa đúng trong vòng tròn */
+.footer__social .footer__icon {
+  margin: 0;
+  line-height: 1;
+  font-size: 1.2rem;
+}
+
 .footer__social:hover {
   transform: translateY(-4px) scale(1.12);
   background: rgba(255, 255, 255, 0.24);
