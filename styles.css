@@ -1526,7 +1526,7 @@ table {
 @media screen and (min-width: 1024px) {
 
   .header,
-  .main,
+  /* .main, */
   .footer__container {
     padding: 0;
   }
